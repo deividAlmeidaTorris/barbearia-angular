@@ -18,8 +18,7 @@ Projeto de site institucional para barbearia, desenvolvido com **Angular 18**, c
 - Footer fixo
 - Layout responsivo para celular, tablet e desktop
 
-## 📸 Preview
-> Em breve disponível online via GitHub Pages
+
 
 ## 🛠️ Como executar o projeto
 ```bash
