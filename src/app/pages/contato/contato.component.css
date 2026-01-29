@@ -1,0 +1,24 @@
+.contato {
+  padding: 60px;
+  text-align: center;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input,
+textarea {
+  padding: 10px;
+}
+
+button {
+  background: gold;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
