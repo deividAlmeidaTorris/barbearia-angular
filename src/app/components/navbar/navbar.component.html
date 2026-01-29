@@ -1,9 +1,11 @@
 <nav class="navbar">
   <div class="logo">💈 Barbearia Prime</div>
 
-  <ul class="menu">
-    <li><a routerLink="/">Home</a></li>
-    <li><a routerLink="/sobre">Sobre</a></li>
-    <li><a routerLink="/contato">Contato</a></li>
+  <button class="menu-btn" (click)="menuAberto = !menuAberto">☰</button>
+
+  <ul class="menu" [class.ativo]="menuAberto">
+    <li><a routerLink="/" (click)="menuAberto = false">Home</a></li>
+    <li><a routerLink="/sobre" (click)="menuAberto = false">Sobre</a></li>
+    <li><a routerLink="/contato" (click)="menuAberto = false">Contato</a></li>
   </ul>
 </nav>
